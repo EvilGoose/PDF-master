@@ -1,0 +1,693 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01F5862EC89E1DE5AE281285C0EF40A8 /* ReaderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D79380AA61B3F151FA5D21002CFFAEB /* ReaderViewController.m */; };
+		0871518996D6C3AE834A9CBD7B777F3F /* vfrReader-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CFF1255EB24A44CDA241D7249D9E6FED /* vfrReader-dummy.m */; };
+		122D567E1A0361D91401B6C1161B89DD /* ReaderContentView.h in Headers */ = {isa = PBXBuildFile; fileRef = 47C041ECD0C220D44DFA21F4CE646FB1 /* ReaderContentView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1A527F3EDC868D28CF94A5C9D654BD38 /* ThumbsMainToolbar.h in Headers */ = {isa = PBXBuildFile; fileRef = 176FB7A4B2C0534A59658D79EBC4447E /* ThumbsMainToolbar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1AE857E06697D480C6992871A1A51BCA /* ReaderMainPagebar.m in Sources */ = {isa = PBXBuildFile; fileRef = 746412908777F52C3A764864EF255342 /* ReaderMainPagebar.m */; };
+		20E1F093573D4868BCE3333CAA4A1CC0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 191B8EB88C146D56C1F5DDDF00C12C08 /* Foundation.framework */; };
+		2AC58215C573BBE5E216CE2BA0742799 /* ReaderConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E7A6BB67902A81BBF72202CF78304B6 /* ReaderConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E0E59F77D9DC5026E691A9B51229D90 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4780C9F9B25DF7662CBFE8BE2E7EEB5 /* CoreGraphics.framework */; };
+		2EA72FCDD2E36F221E9BA7E606E50E02 /* ReaderThumbView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BBDD0C074787A8AB369B37846201C5C /* ReaderThumbView.m */; };
+		2F12D6FDB6B7BB5B132CDCCEAE2E6BB4 /* ThumbsViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = D5F34255CBF060ABC9448EE9E6539E44 /* ThumbsViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		341DE6DB13E9A3F75DEAE852CB307C99 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 191B8EB88C146D56C1F5DDDF00C12C08 /* Foundation.framework */; };
+		34C62E63424893A44E7FD9A2E70760E0 /* ReaderDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 937D82773D879B92C418EDEAC7F825FC /* ReaderDocument.m */; };
+		3878581D88F612BA94A0107D2A253D48 /* ThumbsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D57EF1F7E231BA996B2A49B0C40692AC /* ThumbsViewController.m */; };
+		3BB7743B90507E27FB343F8E80885F24 /* ReaderThumbRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = EDB9C858244A5BFCE20B89AC1EF42BF6 /* ReaderThumbRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		482794580BBC96557E8B9C3D37163214 /* ReaderViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = D6D70240D4513551E3D5EBB0D87CC562 /* ReaderViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E2FFE846663E7D52B2FDC0F38778730 /* ReaderThumbRender.m in Sources */ = {isa = PBXBuildFile; fileRef = A24CE3EF12CF7C381958484C326A5CC4 /* ReaderThumbRender.m */; };
+		4EC6CD11373BFB6CEC746F4ECF6C6EA3 /* CGPDFDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = 48B39F93B2A398C3822DDD82401446BF /* CGPDFDocument.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5F1960C061D986A8CA158487DE069B40 /* CGPDFDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = ECBC2F6DAA860420F500367621C6D8FA /* CGPDFDocument.m */; };
+		64F2A3E3C0641041182BE2A6DD86FDB9 /* ReaderDocumentOutline.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DF76A250B3532809F9EF1F623726990 /* ReaderDocumentOutline.m */; };
+		6F8E42D2BCD60C5B49BB47B73CA40B1D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAD9BA131BF6A2041CD648E66C3F0A1B /* QuartzCore.framework */; };
+		7B4A6D1DF8BDF9FFDFADC6D9424CAAC1 /* ReaderMainToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = F189C717B7D5DABEBCF5213B50EDEE6E /* ReaderMainToolbar.m */; };
+		7B748DAF4407C06674A9901F3FC5EB42 /* ReaderDocumentOutline.h in Headers */ = {isa = PBXBuildFile; fileRef = 179F87E887C69499C384E270385BA5AD /* ReaderDocumentOutline.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7F4C2AA050FFD55B4106D7AAFF57CC22 /* UIXToolbarView.h in Headers */ = {isa = PBXBuildFile; fileRef = D3544543E07BE9F2183816EFF8C70EAF /* UIXToolbarView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		817BEDE8899EF581257806167928BF35 /* ReaderThumbFetch.m in Sources */ = {isa = PBXBuildFile; fileRef = 29E18581EFE6DBFFC2001B5FFACF277A /* ReaderThumbFetch.m */; };
+		8565055230780224ABC9672D6D26E513 /* ReaderThumbQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = BDB37FBD17644C831A9A58284ECD569B /* ReaderThumbQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4694B1F5319C934CB63272D2FC2C688 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE9EE73F387EBB5C99B854DE45C51283 /* ImageIO.framework */; };
+		A4D69209E51779E17D2B46DA6DB8D56B /* ReaderThumbRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = E6AC5116215E30043BF0737948DC03D3 /* ReaderThumbRequest.m */; };
+		AC64EF828D9540A971E423375218302C /* ReaderContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 905A5BD6E90BE8D8D45928E451B32DAB /* ReaderContentView.m */; };
+		ADF271128790100114DCB360561FCE10 /* ReaderDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FC2022B84FDB6932415FB49BDC0EC58 /* ReaderDocument.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B035C76C3EEF34595131A13E8CAC0706 /* ThumbsMainToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = B89DAD34A710260222F0A4D3257CE8BF /* ThumbsMainToolbar.m */; };
+		B2600A86D86CF351C2A205998D5073AC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84ECF0A66F0033442C2C5453BB2AE67C /* UIKit.framework */; };
+		BAC5354ECE4CBCC2D528921F0EB8DBDB /* ReaderContentTile.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A197F9301B6E3483B356F9630DBE1CE /* ReaderContentTile.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BD933DBA64D28A448B7894225D8930F6 /* ReaderThumbView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2367E5F417DB921F2BA0512C856E1026 /* ReaderThumbView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF4EEEAFAC2057B79637EF743DAB6E10 /* ReaderContentTile.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A66E627047CBAC7F78B174AB27C44C7 /* ReaderContentTile.m */; };
+		BF9823B35778ED4C7CA825994B0FA626 /* ReaderThumbQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 9906D802BDDB73010CC4401B3490DF01 /* ReaderThumbQueue.m */; };
+		C3A1C174660D0DF23A45CB6A9C823C79 /* ReaderThumbsView.m in Sources */ = {isa = PBXBuildFile; fileRef = A0C7B4CCC4D6EAFAD56CB6208D5D1883 /* ReaderThumbsView.m */; };
+		CF052C677213B891D06A9882C6F55E2C /* ReaderThumbCache.m in Sources */ = {isa = PBXBuildFile; fileRef = C0F5F0B535CDCE8413D2EC09F6E7D072 /* ReaderThumbCache.m */; };
+		D444AABDFBFDB8BFE2FCBEFABC8799FB /* ReaderThumbRender.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DB68C1ED18D96ADB8DE7F87E0EA6800 /* ReaderThumbRender.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D67DA70E005C7B78B80A76A74B56A386 /* ReaderThumbCache.h in Headers */ = {isa = PBXBuildFile; fileRef = FFC334C169C72FCE5FBB005668D8CC19 /* ReaderThumbCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D8D72B16E94A9122B6F5247725A67A2D /* ReaderMainToolbar.h in Headers */ = {isa = PBXBuildFile; fileRef = F17C54827B3EB54AC33CAED98F0AC0BE /* ReaderMainToolbar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D951E3D0C565EF014CA5453488653004 /* ReaderThumbsView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FEFF1FB953BF3A7BFACA7D0409F0D60 /* ReaderThumbsView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA0C6C3950837926F88353BF4674554C /* UIXToolbarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 770D54988353F1749FE1945D40D5DA56 /* UIXToolbarView.m */; };
+		DEAF1964B4CC7139CBD2FBB2D8CE6A51 /* ReaderContentPage.h in Headers */ = {isa = PBXBuildFile; fileRef = EE893CCC5C3F563670D8115F7F7688A9 /* ReaderContentPage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E103680C59B78F0999817D15D638862D /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72C5772D414C56B85842A3670CFE8E26 /* MessageUI.framework */; };
+		E86AB3DBAC9CD9896C06539A4E388036 /* ReaderMainPagebar.h in Headers */ = {isa = PBXBuildFile; fileRef = B4288B754CBE5773EBF5EB592B6D913E /* ReaderMainPagebar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EAE9E5B56AAEB2BBFF0151C813D918AC /* ReaderThumbFetch.h in Headers */ = {isa = PBXBuildFile; fileRef = D27F5326FF12CE55EB315FFFC46085FA /* ReaderThumbFetch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC6F368DB97FD95C9F38FD39C863A1BD /* ReaderConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB1074EB17AAC24CC4AC29D971AA935 /* ReaderConstants.m */; };
+		EF8B229AB47617B59C72425B70DE3287 /* Pods-PDFReader-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A07E3329E2ADD15DF2C7C3F54B6E815 /* Pods-PDFReader-dummy.m */; };
+		FD2044F9D27A0B76EFDDAB98D3B7A1DB /* ReaderContentPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 90AA92A7BEA4D874B227B76A894C72E1 /* ReaderContentPage.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		58087DB765911595D750502B558FB7B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 59E97E8EE93DFD16EC69F8DCA5965FD3;
+			remoteInfo = vfrReader;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0DA8590683611108582B73DF40A4D035 /* Reader-Button-H.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Reader-Button-H.png"; path = "Graphics/Reader-Button-H.png"; sourceTree = "<group>"; };
+		112C537CABF49632B69D51DF6097D300 /* Reader-Mark-Y@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Reader-Mark-Y@2x.png"; path = "Graphics/Reader-Mark-Y@2x.png"; sourceTree = "<group>"; };
+		12B65EF9207414C3F231AC6481DDF844 /* Reader-Thumbs.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Reader-Thumbs.png"; path = "Graphics/Reader-Thumbs.png"; sourceTree = "<group>"; };
+		1754FC2D7A138DD65B62FCE420EEBB1D /* Pods-PDFReader-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PDFReader-resources.sh"; sourceTree = "<group>"; };
+		176FB7A4B2C0534A59658D79EBC4447E /* ThumbsMainToolbar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ThumbsMainToolbar.h; path = Sources/ThumbsMainToolbar.h; sourceTree = "<group>"; };
+		179F87E887C69499C384E270385BA5AD /* ReaderDocumentOutline.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ReaderDocumentOutline.h; path = Sources/ReaderDocumentOutline.h; sourceTree = "<group>"; };
+		191B8EB88C146D56C1F5DDDF00C12C08 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		1A66E627047CBAC7F78B174AB27C44C7 /* ReaderContentTile.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReaderContentTile.m; path = Sources/ReaderContentTile.m; sourceTree = "<group>"; };
+		1ADC3228036A4F83A69FE097D22652A6 /* Pods-PDFReader.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PDFReader.release.xcconfig"; sourceTree = "<group>"; };
+		1DB68C1ED18D96ADB8DE7F87E0EA6800 /* ReaderThumbRender.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ReaderThumbRender.h; path = Sources/ReaderThumbRender.h; sourceTree = "<group>"; };
+		2367E5F417DB921F2BA0512C856E1026 /* ReaderThumbView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ReaderThumbView.h; path = Sources/ReaderThumbView.h; sourceTree = "<group>"; };
+		29E18581EFE6DBFFC2001B5FFACF277A /* ReaderThumbFetch.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReaderThumbFetch.m; path = Sources/ReaderThumbFetch.m; sourceTree = "<group>"; };
+		3BBDD0C074787A8AB369B37846201C5C /* ReaderThumbView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReaderThumbView.m; path = Sources/ReaderThumbView.m; sourceTree = "<group>"; };
+		3FC2022B84FDB6932415FB49BDC0EC58 /* ReaderDocument.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ReaderDocument.h; path = Sources/ReaderDocument.h; sourceTree = "<group>"; };
+		47C041ECD0C220D44DFA21F4CE646FB1 /* ReaderContentView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ReaderContentView.h; path = Sources/ReaderContentView.h; sourceTree = "<group>"; };
+		48B39F93B2A398C3822DDD82401446BF /* CGPDFDocument.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CGPDFDocument.h; path = Sources/CGPDFDocument.h; sourceTree = "<group>"; };
+		49B52FD4DF2307DDC8D236715BE59465 /* Reader-Export@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Reader-Export@2x.png"; path = "Graphics/Reader-Export@2x.png"; sourceTree = "<group>"; };
+		4A197F9301B6E3483B356F9630DBE1CE /* ReaderContentTile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ReaderContentTile.h; path = Sources/ReaderContentTile.h; sourceTree = "<group>"; };
+		4D7871D25D1D6664A778ADBBCFA98BB9 /* Pods-PDFReader-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PDFReader-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4E7A6BB67902A81BBF72202CF78304B6 /* ReaderConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ReaderConstants.h; path = Sources/ReaderConstants.h; sourceTree = "<group>"; };
+		591A3275F5C3DAE96D3C17129B839358 /* Pods-PDFReader.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PDFReader.debug.xcconfig"; sourceTree = "<group>"; };
+		5EB1074EB17AAC24CC4AC29D971AA935 /* ReaderConstants.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReaderConstants.m; path = Sources/ReaderConstants.m; sourceTree = "<group>"; };
+		6A07E3329E2ADD15DF2C7C3F54B6E815 /* Pods-PDFReader-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PDFReader-dummy.m"; sourceTree = "<group>"; };
+		6BEA4360030A850EDC8D3E45F36E50C0 /* vfrReader.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = vfrReader.xcconfig; sourceTree = "<group>"; };
+		72C5772D414C56B85842A3670CFE8E26 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/MessageUI.framework; sourceTree = DEVELOPER_DIR; };
+		746412908777F52C3A764864EF255342 /* ReaderMainPagebar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReaderMainPagebar.m; path = Sources/ReaderMainPagebar.m; sourceTree = "<group>"; };
+		770D54988353F1749FE1945D40D5DA56 /* UIXToolbarView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UIXToolbarView.m; path = Sources/UIXToolbarView.m; sourceTree = "<group>"; };
+		7DF76A250B3532809F9EF1F623726990 /* ReaderDocumentOutline.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReaderDocumentOutline.m; path = Sources/ReaderDocumentOutline.m; sourceTree = "<group>"; };
+		7FEFF1FB953BF3A7BFACA7D0409F0D60 /* ReaderThumbsView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ReaderThumbsView.h; path = Sources/ReaderThumbsView.h; sourceTree = "<group>"; };
+		801186FC036E7E408B5C0153A2847E74 /* Reader-Print@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Reader-Print@2x.png"; path = "Graphics/Reader-Print@2x.png"; sourceTree = "<group>"; };
+		84ECF0A66F0033442C2C5453BB2AE67C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		868FC14FA1BDD3788C059FFBE0B8694A /* vfrReader-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "vfrReader-prefix.pch"; sourceTree = "<group>"; };
+		8D79380AA61B3F151FA5D21002CFFAEB /* ReaderViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReaderViewController.m; path = Sources/ReaderViewController.m; sourceTree = "<group>"; };
+		905A5BD6E90BE8D8D45928E451B32DAB /* ReaderContentView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReaderContentView.m; path = Sources/ReaderContentView.m; sourceTree = "<group>"; };
+		90AA92A7BEA4D874B227B76A894C72E1 /* ReaderContentPage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReaderContentPage.m; path = Sources/ReaderContentPage.m; sourceTree = "<group>"; };
+		90E2441D1686C76639A1A5B38AD039E8 /* Reader-Button-H@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Reader-Button-H@2x.png"; path = "Graphics/Reader-Button-H@2x.png"; sourceTree = "<group>"; };
+		9171F747C8BCC189101283AC2E1C3977 /* libPods-PDFReader.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-PDFReader.a"; path = "libPods-PDFReader.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		937D82773D879B92C418EDEAC7F825FC /* ReaderDocument.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReaderDocument.m; path = Sources/ReaderDocument.m; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9906D802BDDB73010CC4401B3490DF01 /* ReaderThumbQueue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReaderThumbQueue.m; path = Sources/ReaderThumbQueue.m; sourceTree = "<group>"; };
+		9DA2C9FE9B22BA92629BDD84ECA842EE /* Reader-Print.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Reader-Print.png"; path = "Graphics/Reader-Print.png"; sourceTree = "<group>"; };
+		A0C7B4CCC4D6EAFAD56CB6208D5D1883 /* ReaderThumbsView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReaderThumbsView.m; path = Sources/ReaderThumbsView.m; sourceTree = "<group>"; };
+		A24CE3EF12CF7C381958484C326A5CC4 /* ReaderThumbRender.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReaderThumbRender.m; path = Sources/ReaderThumbRender.m; sourceTree = "<group>"; };
+		B00543B42BDEA2397FC32F0B48521B92 /* Reader-Thumbs@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Reader-Thumbs@2x.png"; path = "Graphics/Reader-Thumbs@2x.png"; sourceTree = "<group>"; };
+		B35986E15201ED317386407335BAA151 /* Reader-Button-N@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Reader-Button-N@2x.png"; path = "Graphics/Reader-Button-N@2x.png"; sourceTree = "<group>"; };
+		B4288B754CBE5773EBF5EB592B6D913E /* ReaderMainPagebar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ReaderMainPagebar.h; path = Sources/ReaderMainPagebar.h; sourceTree = "<group>"; };
+		B89DAD34A710260222F0A4D3257CE8BF /* ThumbsMainToolbar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ThumbsMainToolbar.m; path = Sources/ThumbsMainToolbar.m; sourceTree = "<group>"; };
+		BDB37FBD17644C831A9A58284ECD569B /* ReaderThumbQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ReaderThumbQueue.h; path = Sources/ReaderThumbQueue.h; sourceTree = "<group>"; };
+		C0F5F0B535CDCE8413D2EC09F6E7D072 /* ReaderThumbCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReaderThumbCache.m; path = Sources/ReaderThumbCache.m; sourceTree = "<group>"; };
+		C286D751A98A55BCCFBA3B713EE7CA9C /* libvfrReader.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libvfrReader.a; path = libvfrReader.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4780C9F9B25DF7662CBFE8BE2E7EEB5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		CAD9BA131BF6A2041CD648E66C3F0A1B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		CB5CE39933B9FDDA5FD4C1EF6FEEBF0F /* Pods-PDFReader-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PDFReader-frameworks.sh"; sourceTree = "<group>"; };
+		CE9EE73F387EBB5C99B854DE45C51283 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/ImageIO.framework; sourceTree = DEVELOPER_DIR; };
+		CFF1255EB24A44CDA241D7249D9E6FED /* vfrReader-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "vfrReader-dummy.m"; sourceTree = "<group>"; };
+		D27F5326FF12CE55EB315FFFC46085FA /* ReaderThumbFetch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ReaderThumbFetch.h; path = Sources/ReaderThumbFetch.h; sourceTree = "<group>"; };
+		D3544543E07BE9F2183816EFF8C70EAF /* UIXToolbarView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UIXToolbarView.h; path = Sources/UIXToolbarView.h; sourceTree = "<group>"; };
+		D57EF1F7E231BA996B2A49B0C40692AC /* ThumbsViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ThumbsViewController.m; path = Sources/ThumbsViewController.m; sourceTree = "<group>"; };
+		D5F34255CBF060ABC9448EE9E6539E44 /* ThumbsViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ThumbsViewController.h; path = Sources/ThumbsViewController.h; sourceTree = "<group>"; };
+		D6D70240D4513551E3D5EBB0D87CC562 /* ReaderViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ReaderViewController.h; path = Sources/ReaderViewController.h; sourceTree = "<group>"; };
+		DA047A80990DC02F89AE122784C491DA /* Pods-PDFReader-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PDFReader-acknowledgements.plist"; sourceTree = "<group>"; };
+		E6AC5116215E30043BF0737948DC03D3 /* ReaderThumbRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReaderThumbRequest.m; path = Sources/ReaderThumbRequest.m; sourceTree = "<group>"; };
+		EA24A56A9713DA604A5355FA5A765A7E /* Reader-Mark-N@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Reader-Mark-N@2x.png"; path = "Graphics/Reader-Mark-N@2x.png"; sourceTree = "<group>"; };
+		ECBC2F6DAA860420F500367621C6D8FA /* CGPDFDocument.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CGPDFDocument.m; path = Sources/CGPDFDocument.m; sourceTree = "<group>"; };
+		EDB9C858244A5BFCE20B89AC1EF42BF6 /* ReaderThumbRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ReaderThumbRequest.h; path = Sources/ReaderThumbRequest.h; sourceTree = "<group>"; };
+		EE893CCC5C3F563670D8115F7F7688A9 /* ReaderContentPage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ReaderContentPage.h; path = Sources/ReaderContentPage.h; sourceTree = "<group>"; };
+		F06436E027519847CE0DE5189BFB7225 /* Reader-Email@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Reader-Email@2x.png"; path = "Graphics/Reader-Email@2x.png"; sourceTree = "<group>"; };
+		F17C54827B3EB54AC33CAED98F0AC0BE /* ReaderMainToolbar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ReaderMainToolbar.h; path = Sources/ReaderMainToolbar.h; sourceTree = "<group>"; };
+		F189C717B7D5DABEBCF5213B50EDEE6E /* ReaderMainToolbar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReaderMainToolbar.m; path = Sources/ReaderMainToolbar.m; sourceTree = "<group>"; };
+		F235C1D79EB394FE3CC5359D0407CB4C /* Reader-Mark-Y.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Reader-Mark-Y.png"; path = "Graphics/Reader-Mark-Y.png"; sourceTree = "<group>"; };
+		F8F6ED55961241FDACF740C360CD624F /* Reader-Email.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Reader-Email.png"; path = "Graphics/Reader-Email.png"; sourceTree = "<group>"; };
+		FC34CAC3EE89EE98883FB99E3CDC6584 /* Reader-Mark-N.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Reader-Mark-N.png"; path = "Graphics/Reader-Mark-N.png"; sourceTree = "<group>"; };
+		FD851752A89AD5787266D46DF0AE9AF8 /* Reader-Export.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Reader-Export.png"; path = "Graphics/Reader-Export.png"; sourceTree = "<group>"; };
+		FEDA4D79FAD35888916E5EB9A911545B /* Reader-Button-N.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Reader-Button-N.png"; path = "Graphics/Reader-Button-N.png"; sourceTree = "<group>"; };
+		FFC334C169C72FCE5FBB005668D8CC19 /* ReaderThumbCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ReaderThumbCache.h; path = Sources/ReaderThumbCache.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		31240E635569CFAF8E7CE2A75A269191 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E0E59F77D9DC5026E691A9B51229D90 /* CoreGraphics.framework in Frameworks */,
+				20E1F093573D4868BCE3333CAA4A1CC0 /* Foundation.framework in Frameworks */,
+				A4694B1F5319C934CB63272D2FC2C688 /* ImageIO.framework in Frameworks */,
+				E103680C59B78F0999817D15D638862D /* MessageUI.framework in Frameworks */,
+				6F8E42D2BCD60C5B49BB47B73CA40B1D /* QuartzCore.framework in Frameworks */,
+				B2600A86D86CF351C2A205998D5073AC /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46D1374441E0EB0AC93AFDD7D7742305 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				341DE6DB13E9A3F75DEAE852CB307C99 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F75DF6C7C5F002280EC53F48E80B587 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				841BBF63F8C63E824BD09752F2D6FA09 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3E292D22586D54E2487F8F85AA033DBC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5296A3CCE35E764A44C7C36680B210FE /* vfrReader */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		50794F4BFF65DBE91B6BD0CADEF3D0B9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0DA8590683611108582B73DF40A4D035 /* Reader-Button-H.png */,
+				90E2441D1686C76639A1A5B38AD039E8 /* Reader-Button-H@2x.png */,
+				FEDA4D79FAD35888916E5EB9A911545B /* Reader-Button-N.png */,
+				B35986E15201ED317386407335BAA151 /* Reader-Button-N@2x.png */,
+				F8F6ED55961241FDACF740C360CD624F /* Reader-Email.png */,
+				F06436E027519847CE0DE5189BFB7225 /* Reader-Email@2x.png */,
+				FD851752A89AD5787266D46DF0AE9AF8 /* Reader-Export.png */,
+				49B52FD4DF2307DDC8D236715BE59465 /* Reader-Export@2x.png */,
+				FC34CAC3EE89EE98883FB99E3CDC6584 /* Reader-Mark-N.png */,
+				EA24A56A9713DA604A5355FA5A765A7E /* Reader-Mark-N@2x.png */,
+				F235C1D79EB394FE3CC5359D0407CB4C /* Reader-Mark-Y.png */,
+				112C537CABF49632B69D51DF6097D300 /* Reader-Mark-Y@2x.png */,
+				9DA2C9FE9B22BA92629BDD84ECA842EE /* Reader-Print.png */,
+				801186FC036E7E408B5C0153A2847E74 /* Reader-Print@2x.png */,
+				12B65EF9207414C3F231AC6481DDF844 /* Reader-Thumbs.png */,
+				B00543B42BDEA2397FC32F0B48521B92 /* Reader-Thumbs@2x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		5296A3CCE35E764A44C7C36680B210FE /* vfrReader */ = {
+			isa = PBXGroup;
+			children = (
+				48B39F93B2A398C3822DDD82401446BF /* CGPDFDocument.h */,
+				ECBC2F6DAA860420F500367621C6D8FA /* CGPDFDocument.m */,
+				4E7A6BB67902A81BBF72202CF78304B6 /* ReaderConstants.h */,
+				5EB1074EB17AAC24CC4AC29D971AA935 /* ReaderConstants.m */,
+				EE893CCC5C3F563670D8115F7F7688A9 /* ReaderContentPage.h */,
+				90AA92A7BEA4D874B227B76A894C72E1 /* ReaderContentPage.m */,
+				4A197F9301B6E3483B356F9630DBE1CE /* ReaderContentTile.h */,
+				1A66E627047CBAC7F78B174AB27C44C7 /* ReaderContentTile.m */,
+				47C041ECD0C220D44DFA21F4CE646FB1 /* ReaderContentView.h */,
+				905A5BD6E90BE8D8D45928E451B32DAB /* ReaderContentView.m */,
+				3FC2022B84FDB6932415FB49BDC0EC58 /* ReaderDocument.h */,
+				937D82773D879B92C418EDEAC7F825FC /* ReaderDocument.m */,
+				179F87E887C69499C384E270385BA5AD /* ReaderDocumentOutline.h */,
+				7DF76A250B3532809F9EF1F623726990 /* ReaderDocumentOutline.m */,
+				B4288B754CBE5773EBF5EB592B6D913E /* ReaderMainPagebar.h */,
+				746412908777F52C3A764864EF255342 /* ReaderMainPagebar.m */,
+				F17C54827B3EB54AC33CAED98F0AC0BE /* ReaderMainToolbar.h */,
+				F189C717B7D5DABEBCF5213B50EDEE6E /* ReaderMainToolbar.m */,
+				FFC334C169C72FCE5FBB005668D8CC19 /* ReaderThumbCache.h */,
+				C0F5F0B535CDCE8413D2EC09F6E7D072 /* ReaderThumbCache.m */,
+				D27F5326FF12CE55EB315FFFC46085FA /* ReaderThumbFetch.h */,
+				29E18581EFE6DBFFC2001B5FFACF277A /* ReaderThumbFetch.m */,
+				BDB37FBD17644C831A9A58284ECD569B /* ReaderThumbQueue.h */,
+				9906D802BDDB73010CC4401B3490DF01 /* ReaderThumbQueue.m */,
+				1DB68C1ED18D96ADB8DE7F87E0EA6800 /* ReaderThumbRender.h */,
+				A24CE3EF12CF7C381958484C326A5CC4 /* ReaderThumbRender.m */,
+				EDB9C858244A5BFCE20B89AC1EF42BF6 /* ReaderThumbRequest.h */,
+				E6AC5116215E30043BF0737948DC03D3 /* ReaderThumbRequest.m */,
+				7FEFF1FB953BF3A7BFACA7D0409F0D60 /* ReaderThumbsView.h */,
+				A0C7B4CCC4D6EAFAD56CB6208D5D1883 /* ReaderThumbsView.m */,
+				2367E5F417DB921F2BA0512C856E1026 /* ReaderThumbView.h */,
+				3BBDD0C074787A8AB369B37846201C5C /* ReaderThumbView.m */,
+				D6D70240D4513551E3D5EBB0D87CC562 /* ReaderViewController.h */,
+				8D79380AA61B3F151FA5D21002CFFAEB /* ReaderViewController.m */,
+				176FB7A4B2C0534A59658D79EBC4447E /* ThumbsMainToolbar.h */,
+				B89DAD34A710260222F0A4D3257CE8BF /* ThumbsMainToolbar.m */,
+				D5F34255CBF060ABC9448EE9E6539E44 /* ThumbsViewController.h */,
+				D57EF1F7E231BA996B2A49B0C40692AC /* ThumbsViewController.m */,
+				D3544543E07BE9F2183816EFF8C70EAF /* UIXToolbarView.h */,
+				770D54988353F1749FE1945D40D5DA56 /* UIXToolbarView.m */,
+				50794F4BFF65DBE91B6BD0CADEF3D0B9 /* Resources */,
+				E1CD114FB02B1A4AC47D61CC6CAA387B /* Support Files */,
+			);
+			name = vfrReader;
+			path = vfrReader;
+			sourceTree = "<group>";
+		};
+		60A1400A71F2335655209D4AE538D2F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9171F747C8BCC189101283AC2E1C3977 /* libPods-PDFReader.a */,
+				C286D751A98A55BCCFBA3B713EE7CA9C /* libvfrReader.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		685D4E9988D23E66FFEDE50DEE21238A /* Pods-PDFReader */ = {
+			isa = PBXGroup;
+			children = (
+				4D7871D25D1D6664A778ADBBCFA98BB9 /* Pods-PDFReader-acknowledgements.markdown */,
+				DA047A80990DC02F89AE122784C491DA /* Pods-PDFReader-acknowledgements.plist */,
+				6A07E3329E2ADD15DF2C7C3F54B6E815 /* Pods-PDFReader-dummy.m */,
+				CB5CE39933B9FDDA5FD4C1EF6FEEBF0F /* Pods-PDFReader-frameworks.sh */,
+				1754FC2D7A138DD65B62FCE420EEBB1D /* Pods-PDFReader-resources.sh */,
+				591A3275F5C3DAE96D3C17129B839358 /* Pods-PDFReader.debug.xcconfig */,
+				1ADC3228036A4F83A69FE097D22652A6 /* Pods-PDFReader.release.xcconfig */,
+			);
+			name = "Pods-PDFReader";
+			path = "Target Support Files/Pods-PDFReader";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				0F75DF6C7C5F002280EC53F48E80B587 /* Frameworks */,
+				3E292D22586D54E2487F8F85AA033DBC /* Pods */,
+				60A1400A71F2335655209D4AE538D2F2 /* Products */,
+				ACDA8DE1DC4677AB67D0CAC82F251AA1 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		841BBF63F8C63E824BD09752F2D6FA09 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				C4780C9F9B25DF7662CBFE8BE2E7EEB5 /* CoreGraphics.framework */,
+				191B8EB88C146D56C1F5DDDF00C12C08 /* Foundation.framework */,
+				CE9EE73F387EBB5C99B854DE45C51283 /* ImageIO.framework */,
+				72C5772D414C56B85842A3670CFE8E26 /* MessageUI.framework */,
+				CAD9BA131BF6A2041CD648E66C3F0A1B /* QuartzCore.framework */,
+				84ECF0A66F0033442C2C5453BB2AE67C /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		ACDA8DE1DC4677AB67D0CAC82F251AA1 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				685D4E9988D23E66FFEDE50DEE21238A /* Pods-PDFReader */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		E1CD114FB02B1A4AC47D61CC6CAA387B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6BEA4360030A850EDC8D3E45F36E50C0 /* vfrReader.xcconfig */,
+				CFF1255EB24A44CDA241D7249D9E6FED /* vfrReader-dummy.m */,
+				868FC14FA1BDD3788C059FFBE0B8694A /* vfrReader-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/vfrReader";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4C459B90F40EECE18FC6E111106FD129 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EC6CD11373BFB6CEC746F4ECF6C6EA3 /* CGPDFDocument.h in Headers */,
+				2AC58215C573BBE5E216CE2BA0742799 /* ReaderConstants.h in Headers */,
+				DEAF1964B4CC7139CBD2FBB2D8CE6A51 /* ReaderContentPage.h in Headers */,
+				BAC5354ECE4CBCC2D528921F0EB8DBDB /* ReaderContentTile.h in Headers */,
+				122D567E1A0361D91401B6C1161B89DD /* ReaderContentView.h in Headers */,
+				ADF271128790100114DCB360561FCE10 /* ReaderDocument.h in Headers */,
+				7B748DAF4407C06674A9901F3FC5EB42 /* ReaderDocumentOutline.h in Headers */,
+				E86AB3DBAC9CD9896C06539A4E388036 /* ReaderMainPagebar.h in Headers */,
+				D8D72B16E94A9122B6F5247725A67A2D /* ReaderMainToolbar.h in Headers */,
+				D67DA70E005C7B78B80A76A74B56A386 /* ReaderThumbCache.h in Headers */,
+				EAE9E5B56AAEB2BBFF0151C813D918AC /* ReaderThumbFetch.h in Headers */,
+				8565055230780224ABC9672D6D26E513 /* ReaderThumbQueue.h in Headers */,
+				D444AABDFBFDB8BFE2FCBEFABC8799FB /* ReaderThumbRender.h in Headers */,
+				3BB7743B90507E27FB343F8E80885F24 /* ReaderThumbRequest.h in Headers */,
+				D951E3D0C565EF014CA5453488653004 /* ReaderThumbsView.h in Headers */,
+				BD933DBA64D28A448B7894225D8930F6 /* ReaderThumbView.h in Headers */,
+				482794580BBC96557E8B9C3D37163214 /* ReaderViewController.h in Headers */,
+				1A527F3EDC868D28CF94A5C9D654BD38 /* ThumbsMainToolbar.h in Headers */,
+				2F12D6FDB6B7BB5B132CDCCEAE2E6BB4 /* ThumbsViewController.h in Headers */,
+				7F4C2AA050FFD55B4106D7AAFF57CC22 /* UIXToolbarView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		59E97E8EE93DFD16EC69F8DCA5965FD3 /* vfrReader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99D5A93AA6DD7B6946F76F51E82D1AE1 /* Build configuration list for PBXNativeTarget "vfrReader" */;
+			buildPhases = (
+				D9A5E1F20FB280E4F939B3B21810170F /* Sources */,
+				31240E635569CFAF8E7CE2A75A269191 /* Frameworks */,
+				4C459B90F40EECE18FC6E111106FD129 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = vfrReader;
+			productName = vfrReader;
+			productReference = C286D751A98A55BCCFBA3B713EE7CA9C /* libvfrReader.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C87E082565A7216DC877C88ACB3CAFBE /* Pods-PDFReader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A10770ADE5D01183C9C6F201649CDA45 /* Build configuration list for PBXNativeTarget "Pods-PDFReader" */;
+			buildPhases = (
+				FB5A73F1A5610A54047BA4F53D1BE81F /* Sources */,
+				46D1374441E0EB0AC93AFDD7D7742305 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6AD4B5E8D7EBA582D107B33379769616 /* PBXTargetDependency */,
+			);
+			name = "Pods-PDFReader";
+			productName = "Pods-PDFReader";
+			productReference = 9171F747C8BCC189101283AC2E1C3977 /* libPods-PDFReader.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 60A1400A71F2335655209D4AE538D2F2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C87E082565A7216DC877C88ACB3CAFBE /* Pods-PDFReader */,
+				59E97E8EE93DFD16EC69F8DCA5965FD3 /* vfrReader */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D9A5E1F20FB280E4F939B3B21810170F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F1960C061D986A8CA158487DE069B40 /* CGPDFDocument.m in Sources */,
+				EC6F368DB97FD95C9F38FD39C863A1BD /* ReaderConstants.m in Sources */,
+				FD2044F9D27A0B76EFDDAB98D3B7A1DB /* ReaderContentPage.m in Sources */,
+				BF4EEEAFAC2057B79637EF743DAB6E10 /* ReaderContentTile.m in Sources */,
+				AC64EF828D9540A971E423375218302C /* ReaderContentView.m in Sources */,
+				34C62E63424893A44E7FD9A2E70760E0 /* ReaderDocument.m in Sources */,
+				64F2A3E3C0641041182BE2A6DD86FDB9 /* ReaderDocumentOutline.m in Sources */,
+				1AE857E06697D480C6992871A1A51BCA /* ReaderMainPagebar.m in Sources */,
+				7B4A6D1DF8BDF9FFDFADC6D9424CAAC1 /* ReaderMainToolbar.m in Sources */,
+				CF052C677213B891D06A9882C6F55E2C /* ReaderThumbCache.m in Sources */,
+				817BEDE8899EF581257806167928BF35 /* ReaderThumbFetch.m in Sources */,
+				BF9823B35778ED4C7CA825994B0FA626 /* ReaderThumbQueue.m in Sources */,
+				4E2FFE846663E7D52B2FDC0F38778730 /* ReaderThumbRender.m in Sources */,
+				A4D69209E51779E17D2B46DA6DB8D56B /* ReaderThumbRequest.m in Sources */,
+				C3A1C174660D0DF23A45CB6A9C823C79 /* ReaderThumbsView.m in Sources */,
+				2EA72FCDD2E36F221E9BA7E606E50E02 /* ReaderThumbView.m in Sources */,
+				01F5862EC89E1DE5AE281285C0EF40A8 /* ReaderViewController.m in Sources */,
+				B035C76C3EEF34595131A13E8CAC0706 /* ThumbsMainToolbar.m in Sources */,
+				3878581D88F612BA94A0107D2A253D48 /* ThumbsViewController.m in Sources */,
+				DA0C6C3950837926F88353BF4674554C /* UIXToolbarView.m in Sources */,
+				0871518996D6C3AE834A9CBD7B777F3F /* vfrReader-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB5A73F1A5610A54047BA4F53D1BE81F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF8B229AB47617B59C72425B70DE3287 /* Pods-PDFReader-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6AD4B5E8D7EBA582D107B33379769616 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = vfrReader;
+			target = 59E97E8EE93DFD16EC69F8DCA5965FD3 /* vfrReader */;
+			targetProxy = 58087DB765911595D750502B558FB7B4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		707B86CFB21B645E37109F39754D4051 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A85821DD6F3626331828024727552A47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BEA4360030A850EDC8D3E45F36E50C0 /* vfrReader.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/vfrReader/vfrReader-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+			};
+			name = Release;
+		};
+		AC265DAEDD4D0472CE0733B6F3406B8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1ADC3228036A4F83A69FE097D22652A6 /* Pods-PDFReader.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		EF26A3C5B6EDA309192C6025F703DE0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F3CA880A2A2A04DDF9B6F79D962848A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 591A3275F5C3DAE96D3C17129B839358 /* Pods-PDFReader.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		FD6CA031BF7E3FA56809BCF96334AB1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BEA4360030A850EDC8D3E45F36E50C0 /* vfrReader.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/vfrReader/vfrReader-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF26A3C5B6EDA309192C6025F703DE0A /* Debug */,
+				707B86CFB21B645E37109F39754D4051 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99D5A93AA6DD7B6946F76F51E82D1AE1 /* Build configuration list for PBXNativeTarget "vfrReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD6CA031BF7E3FA56809BCF96334AB1C /* Debug */,
+				A85821DD6F3626331828024727552A47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A10770ADE5D01183C9C6F201649CDA45 /* Build configuration list for PBXNativeTarget "Pods-PDFReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3CA880A2A2A04DDF9B6F79D962848A4 /* Debug */,
+				AC265DAEDD4D0472CE0733B6F3406B8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
