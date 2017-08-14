@@ -14,6 +14,15 @@
 		C48003861F4147D900AEBE2C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C48003841F4147D900AEBE2C /* Main.storyboard */; };
 		C48003881F4147D900AEBE2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C48003871F4147D900AEBE2C /* Assets.xcassets */; };
 		C480038B1F4147D900AEBE2C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C48003891F4147D900AEBE2C /* LaunchScreen.storyboard */; };
+		C4E81A6F1F41674800F23C78 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4E81A6E1F41674800F23C78 /* CoreImage.framework */; };
+		C4E81A711F41675700F23C78 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4E81A701F41675700F23C78 /* ImageIO.framework */; };
+		C4E81A731F41676300F23C78 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4E81A721F41676300F23C78 /* MessageUI.framework */; };
+		C4E81A751F41677200F23C78 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4E81A741F41677200F23C78 /* QuartzCore.framework */; };
+		C4E81A771F4168A900F23C78 /* Vim实用技巧.pdf in Resources */ = {isa = PBXBuildFile; fileRef = C4E81A761F4168A900F23C78 /* Vim实用技巧.pdf */; };
+		C4E81A7B1F41726600F23C78 /* 地图开发.pdf in Resources */ = {isa = PBXBuildFile; fileRef = C4E81A7A1F41726600F23C78 /* 地图开发.pdf */; };
+		C4E81A851F41897200F23C78 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E81A831F41897100F23C78 /* WebViewController.m */; };
+		C4E81A861F41897200F23C78 /* WebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4E81A841F41897100F23C78 /* WebViewController.xib */; };
+		C4E81A881F41910300F23C78 /* Manul.pdf in Resources */ = {isa = PBXBuildFile; fileRef = C4E81A871F41910300F23C78 /* Manul.pdf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +38,16 @@
 		C48003871F4147D900AEBE2C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C480038A1F4147D900AEBE2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C480038C1F4147D900AEBE2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4E81A6E1F41674800F23C78 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		C4E81A701F41675700F23C78 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		C4E81A721F41676300F23C78 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		C4E81A741F41677200F23C78 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		C4E81A761F4168A900F23C78 /* Vim实用技巧.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Vim实用技巧.pdf"; sourceTree = "<group>"; };
+		C4E81A7A1F41726600F23C78 /* 地图开发.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "地图开发.pdf"; sourceTree = "<group>"; };
+		C4E81A821F41897100F23C78 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		C4E81A831F41897100F23C78 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		C4E81A841F41897100F23C78 /* WebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WebViewController.xib; sourceTree = "<group>"; };
+		C4E81A871F41910300F23C78 /* Manul.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Manul.pdf; sourceTree = "<group>"; };
 		E1AE7A0B5B5BED3327DE0EDE /* Pods-PDFReader.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PDFReader.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PDFReader/Pods-PDFReader.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -37,6 +56,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4E81A751F41677200F23C78 /* QuartzCore.framework in Frameworks */,
+				C4E81A731F41676300F23C78 /* MessageUI.framework in Frameworks */,
+				C4E81A711F41675700F23C78 /* ImageIO.framework in Frameworks */,
+				C4E81A6F1F41674800F23C78 /* CoreImage.framework in Frameworks */,
 				48A4474A5F22140CAC7E3AE7 /* libPods-PDFReader.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -56,6 +79,10 @@
 		ACFCBBFBED2B415B6D9A1AC2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C4E81A741F41677200F23C78 /* QuartzCore.framework */,
+				C4E81A721F41676300F23C78 /* MessageUI.framework */,
+				C4E81A701F41675700F23C78 /* ImageIO.framework */,
+				C4E81A6E1F41674800F23C78 /* CoreImage.framework */,
 				AF7FBF081FD5A45E3948BB52 /* libPods-PDFReader.a */,
 			);
 			name = Frameworks;
@@ -87,9 +114,15 @@
 				C48003811F4147D900AEBE2C /* ViewController.h */,
 				C48003821F4147D900AEBE2C /* ViewController.m */,
 				C48003841F4147D900AEBE2C /* Main.storyboard */,
+				C4E81A821F41897100F23C78 /* WebViewController.h */,
+				C4E81A831F41897100F23C78 /* WebViewController.m */,
+				C4E81A841F41897100F23C78 /* WebViewController.xib */,
 				C48003871F4147D900AEBE2C /* Assets.xcassets */,
 				C48003891F4147D900AEBE2C /* LaunchScreen.storyboard */,
 				C480038C1F4147D900AEBE2C /* Info.plist */,
+				C4E81A761F4168A900F23C78 /* Vim实用技巧.pdf */,
+				C4E81A871F41910300F23C78 /* Manul.pdf */,
+				C4E81A7A1F41726600F23C78 /* 地图开发.pdf */,
 				C480037B1F4147D900AEBE2C /* Supporting Files */,
 			);
 			path = PDFReader;
@@ -165,9 +198,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4E81A771F4168A900F23C78 /* Vim实用技巧.pdf in Resources */,
+				C4E81A881F41910300F23C78 /* Manul.pdf in Resources */,
 				C480038B1F4147D900AEBE2C /* LaunchScreen.storyboard in Resources */,
+				C4E81A861F41897200F23C78 /* WebViewController.xib in Resources */,
 				C48003881F4147D900AEBE2C /* Assets.xcassets in Resources */,
 				C48003861F4147D900AEBE2C /* Main.storyboard in Resources */,
+				C4E81A7B1F41726600F23C78 /* 地图开发.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +287,7 @@
 				C48003831F4147D900AEBE2C /* ViewController.m in Sources */,
 				C48003801F4147D900AEBE2C /* AppDelegate.m in Sources */,
 				C480037D1F4147D900AEBE2C /* main.m in Sources */,
+				C4E81A851F41897200F23C78 /* WebViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -372,9 +410,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 8PLB35PLP3;
 				INFOPLIST_FILE = PDFReader/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.evilGoose.PDFReader;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -385,9 +425,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 8PLB35PLP3;
 				INFOPLIST_FILE = PDFReader/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.evilGoose.PDFReader;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -410,6 +452,7 @@
 				C48003911F4147D900AEBE2C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
